@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kavlin Kaur - Creative Developer & Poet</title>
+    <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -32,10 +32,19 @@
                     <a href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#skills" class="nav-link">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#poetry" class="nav-link">Poetry</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reading" class="nav-link">Reading</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
@@ -49,7 +58,22 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Page Navigation Dots -->
+    <div class="page-nav">
+        <div class="page-nav-dot active" data-section="Home" data-target="#home"></div>
+        <div class="page-nav-dot" data-section="About" data-target="#about"></div>
+        <div class="page-nav-dot" data-section="Skills" data-target="#skills"></div>
+        <div class="page-nav-dot" data-section="Experience" data-target="#experience"></div>
+        <div class="page-nav-dot" data-section="Achievements" data-target="#achievements"></div>
+        <div class="page-nav-dot" data-section="Projects" data-target="#projects"></div>
+        <div class="page-nav-dot" data-section="Poetry" data-target="#poetry"></div>
+        <div class="page-nav-dot" data-section="Reading" data-target="#reading"></div>
+        <div class="page-nav-dot" data-section="Contact" data-target="#contact"></div>
+    </div>
+
+
+
+  <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
@@ -72,7 +96,7 @@
     </div>
   </section>
 
-    <!-- About Section -->
+  <!-- About Section -->
     <section id="about" class="about">
     <div class="container">
             <h2 class="section-title">About Me</h2>
@@ -103,131 +127,6 @@
       </div>
     </div>
   </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-    <div class="container">
-            <h2 class="section-title">Experience & Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Master of Computer Applications</h3>
-                        <p class="institution">Shoolini University</p>
-                        <p class="duration">2024 - Present</p>
-                        <p class="description">Specializing in AI/ML with a focus on creative applications. Maintaining excellent academic performance while leading study groups and mentoring peers.</p>
-          </div>
-        </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Bachelor of Computer Applications</h3>
-                        <p class="institution">HP University</p>
-                        <p class="duration">2021 - 2024</p>
-                        <p class="description">Graduated with distinction (CGPA: 8.24). Developed strong foundation in programming fundamentals and software development.</p>
-          </div>
-        </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Auckland House School </h3>
-                        <p class="institution">Nursery to 12th
-                        </p>
-                        <p class="duration">2021</p>
-                        <p class="description">I completed my schooling at Auckland House School, a place that shaped my foundation both academically and personally. It’s where I discovered my love for structure, creativity, and discipline all of which still reflect in my approach to learning and development. From leadership roles to creative writing, Auckland gave me the grounding to become who I am today.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-    <!-- Projects Section -->
-<section id="projects" class="projects">
-    <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-grid">
-
-        <div class="project-card">
-                <div class="project-header">
-                    <h3>Poetry Website</h3>
-                    <span class="project-tag">Creative</span>
-                </div>
-                <p>A personal poetry platform showcasing heartfelt writings through a clean, minimal UI that emphasizes expression and emotion.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">HTML</span>
-                    <span class="tech-tag">CSS</span>
-                    <span class="tech-tag">JavaScript</span>
-                </div>
-        </div>
-
-        <div class="project-card">
-                <div class="project-header">
-                    <h3>MCQ Quiz App</h3>
-                    <span class="project-tag">Education</span>
-                </div>
-                <p>An engaging multiple-choice quiz application designed for learners to practice and track performance through real-time feedback.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">HTML/CSS</span>
-                    <span class="tech-tag">JavaScript</span>
-                    <span class="tech-tag">LocalStorage</span>
-                </div>
-        </div>
-
-        <div class="project-card">
-                <div class="project-header">
-                    <h3>Bus Management System</h3>
-                    <span class="project-tag">Full-Stack</span>
-                </div>
-                <p>A transport automation platform designed to handle reservations, live bus tracking, and QR-based ticket validation, built by applying classroom concepts to real-world logic.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">Flask</span>
-                    <span class="tech-tag">SQLAlchemy</span>
-                    <span class="tech-tag">HTML/CSS</span>
-                    <span class="tech-tag">QR Code</span>
-                </div>
-        </div>
-            
-        <div class="project-card">
-                <div class="project-header">
-                    <h3>Sangam - Alumni Portal</h3>
-                    <span class="project-tag">Web App</span>
-                </div>
-                <p>An alumni management system enabling user authentication, alumni-faculty interactions, and scalable data handling features.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">React</span>
-                    <span class="tech-tag">HTML/CSS</span>
-                    <span class="tech-tag">Django</span>
-        </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-header">
-                    <h3>Portfolio Website</h3>
-                    <span class="project-tag">Personal</span>
-                </div>
-                <p>A professional portfolio website to represent my work and skills, built with modern frameworks and a responsive UI design.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">HTML</span>
-                    <span class="tech-tag">CSS</span>
-                    <span class="tech-tag">JavaScript</span>
-      </div>
-    </div>
-
-            <div class="project-card">
-                <div class="project-header">
-                    <h3>Qonnect</h3>
-                    <span class="project-tag">Hackathon</span>
-                </div>
-                <p>A real-time student networking platform developed during a hackathon to streamline campus connections and event participation.</p>
-                <div class="project-tech">
-                    <span class="tech-tag">React</span>
-                    <span class="tech-tag">API</span>
-                    <span class="tech-tag">MongoDB</span>
-      </div>
-    </div>
-
-      </div>
-    </div>
-  </section>
-
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
@@ -278,8 +177,8 @@
                         <span class="skill-tag">GitHub</span>
                         <span class="skill-tag">VS Code</span>
                         <span class="skill-tag">Postman</span>
-      </div>
-    </div>
+                    </div>
+                </div>
                 <!-- Soft Skills -->
                 <div class="skills-card">
                     <h3>Soft Skills</h3>
@@ -288,11 +187,562 @@
                         <span class="skill-tag">Adaptability</span>
                         <span class="skill-tag">Work Ethic</span>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+    <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Master of Computer Applications</h3>
+                        <p class="institution">Shoolini University</p>
+                        <p class="duration">2024 - Present</p>
+                        <p class="description">Specializing in AI/ML with a focus on creative applications. Maintaining excellent academic performance while leading study groups and mentoring peers.</p>
+          </div>
+        </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Applications</h3>
+                        <p class="institution">HP University</p>
+                        <p class="duration">2021 - 2024</p>
+                        <p class="description">Graduated with distinction (CGPA: 8.24). Developed strong foundation in programming fundamentals and software development.</p>
+          </div>
+        </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Auckland House School </h3>
+                        <p class="institution">Nursery to 12th
+                        </p>
+                        <p class="duration">2021</p>
+                        <p class="description">I completed my schooling at Auckland House School, a place that shaped my foundation both academically and personally. It’s where I discovered my love for structure, creativity, and discipline all of which still reflect in my approach to learning and development. From leadership roles to creative writing, Auckland gave me the grounding to become who I am today.</p>
+          </div>
+        </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Experience</h3>
+                        <p class="institution">No experience</p>
+                        
+                         <p class="description">
+      While I haven’t had formal corporate experience yet, I’ve actively taken on responsibilities that have shaped my communication, leadership, and organizational skills. I have provided private tuitions, which strengthened my ability to explain complex topics clearly and manage time effectively. During my undergraduate studies, I served as Class Monitor for three consecutive years and was also appointed as the BCA Department Coordinator. Currently, I’m continuing this leadership journey as the Class Monitor for the past two semesters during my MCA at Shoolini University. These experiences have allowed me to grow through real-world responsibilities, even outside a traditional work setting.
+    </p>
         </div>
       </div>
     </div>
   </section>
-    <!-- End Skills Section -->
+
+  <!-- Achievements & Certifications Section -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <h2 class="section-title">Achievements & Certifications</h2>
+      <p class="section-subtitle">Continuous learning and recognition of skills across various domains</p>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Hackathon Participation</h3>
+            <p>Active participation in competitive coding events, demonstrating problem-solving skills and innovative thinking under pressure.</p>
+            <span class="achievement-tag">Competition</span>
+            <a href="#" class="achievement-link" target="_blank">
+              <i class="fas fa-external-link-alt"></i> View Certificate
+            </a>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>IBM AI Certification</h3>
+            <p>Comprehensive certification in artificial intelligence fundamentals, covering machine learning algorithms and AI applications.</p>
+            <span class="achievement-tag">AI/ML</span>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Udemy Web Development</h3>
+            <p>Complete web development course covering modern frameworks, responsive design, and full-stack development principles.</p>
+            <span class="achievement-tag">Web Dev</span>
+            <a href="https://www.udemy.com/certificate/your-udemy-certificate" class="achievement-link" target="_blank">
+              <i class="fas fa-external-link-alt"></i> View Certificate
+            </a>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fab fa-python"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>100 Days of Code – Python Bootcamp</h3>
+            <p>Intensive Python programming bootcamp covering data structures, algorithms, and real-world project development.</p>
+            <span class="achievement-tag">Python</span>
+            <a href="https://www.udemy.com/certificate/your-python-bootcamp-certificate" class="achievement-link" target="_blank">
+              <i class="fas fa-external-link-alt"></i> View Certificate
+            </a>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-plug"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Postman API Fundamentals</h3>
+            <p>Mastery of API testing and development using Postman, including authentication, automation, and documentation.</p>
+            <span class="achievement-tag">API</span>
+            <a href="https://badgr.com/public/assertions/your-postman-badge" class="achievement-link" target="_blank">
+              <i class="fas fa-external-link-alt"></i> View Certificate
+            </a>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Microsoft Generative AI</h3>
+            <p>Specialized certification in generative AI technologies, exploring cutting-edge AI models and their applications.</p>
+            <span class="achievement-tag">GenAI</span>
+          </div>
+        </div>
+
+        
+
+     
+
+       
+
+       
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+    <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+
+        <div class="project-card">
+                <div class="project-image">
+                    <img src="poetry.png" alt="Poetry Website">
+                </div>
+                <div class="project-header">
+                    <h3>Poetry Website</h3>
+                    <span class="project-tag">Creative</span>
+                </div>
+                <p>A personal poetry platform showcasing heartfelt writings through a clean, minimal UI that emphasizes expression and emotion.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+        </div>
+
+        <div class="project-card">
+                <div class="project-image">
+                    <img src="MCQ.png" alt="MCQ Quiz App">
+                </div>
+                <div class="project-header">
+                    <h3>MCQ Quiz App</h3>
+                    <span class="project-tag">Education</span>
+                </div>
+                <p>An engaging multiple-choice quiz application designed for learners to practice and track performance through real-time feedback.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">LocalStorage</span>
+                </div>
+        </div>
+
+        <div class="project-card">
+                <div class="project-image">
+                    <img src="happy-trails.png" alt="Bus Management System">
+                </div>
+                <div class="project-header">
+                    <h3>Bus Management System</h3>
+                    <span class="project-tag">Full-Stack</span>
+                </div>
+                <p>A transport automation platform designed to handle reservations, live bus tracking, and QR-based ticket validation, built by applying classroom concepts to real-world logic.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">SQLAlchemy</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">QR Code</span>
+                </div>
+        </div>
+            
+        <div class="project-card">
+                <div class="project-image">
+                    <img src="project4.jpg" alt="Sangam Alumni Portal">
+                </div>
+                <div class="project-header">
+                    <h3>Sangam - Alumni Portal</h3>
+                    <span class="project-tag">Web App</span>
+                </div>
+                <p>An alumni management system enabling user authentication, alumni-faculty interactions, and scalable data handling features.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">Django</span>
+        </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project5.jpg" alt="Portfolio Website">
+                </div>
+                <div class="project-header">
+                    <h3>Portfolio Website</h3>
+                    <span class="project-tag">Personal</span>
+                </div>
+                <p>A professional portfolio website to represent my work and skills, built with modern frameworks and a responsive UI design.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+      </div>
+    </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project6.jpg" alt="Qonnect">
+                </div>
+                <div class="project-header">
+                    <h3>Qonnect</h3>
+                    <span class="project-tag">Hackathon</span>
+                </div>
+                <p>A real-time student networking platform developed during a hackathon to streamline campus connections and event participation.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">API</span>
+                    <span class="tech-tag">MongoDB</span>
+      </div>
+    </div>
+
+      </div>
+    </div>
+  </section>
+
+    <!-- Poetry Section -->
+    <section id="poetry" class="poetry">
+    <div class="container">
+            <h2 class="section-title">Poetry Collection</h2>
+            <p class="section-subtitle">Words that flow from the heart, capturing moments of reflection and emotion</p>
+            <div class="poetry-content">
+                <div class="poem-card">
+                    <div class="poem-header">
+                        <h3>Two Parallel Worlds</h3>
+                        <span class="poem-date">2024</span>
+                    </div>
+                    <div class="poem-text">
+                        <p>Living in two parallel worlds, perhaps there was a verse<br>
+                        A verse that only my heart could find, and the one that my mind denied.<br>
+                        Two worlds, two minds, two hearts, and yet, they intertwine.</p>
+                    </div>
+                    <div class="poem-theme">
+                        <span class="theme-tag">Duality</span>
+                        <span class="theme-tag">Reality</span>
+                    </div>
+                </div>
+
+                <div class="poem-card">
+                    <div class="poem-header">
+                        <h3>A Girl Like Binary Sort</h3>
+                        <span class="poem-date">2024</span>
+                    </div>
+                    <div class="poem-text">
+                        <p>A girl like binary sort<br>
+                        But one you'll never solve.<br>
+                        For as you try to fix the code,<br>
+                        You'll wish you'd never got involved.</p>
+                    </div>
+                    <div class="poem-theme">
+                        <span class="theme-tag">Technology</span>
+                        <span class="theme-tag">Identity</span>
+                    </div>
+                </div>
+
+                <div class="poem-card">
+                    <div class="poem-header">
+                        <h3>Right and Wrong</h3>
+                        <span class="poem-date">2024</span>
+                    </div>
+                    <div class="poem-text">
+                        <p>Is it wrong? Is it right?<br>
+                        To strike the dark and praise the light?<br>
+                        If justice hunts the parasite,<br>
+                        Then punishment shouldn't it be just, not spite?</p>
+                    </div>
+                    <div class="poem-theme">
+                        <span class="theme-tag">Philosophy</span>
+                        <span class="theme-tag">Justice</span>
+                    </div>
+                </div>
+
+                <div class="poem-card">
+                    <div class="poem-header">
+                        <h3>Grief</h3>
+                        <span class="poem-date">2024</span>
+                    </div>
+                    <div class="poem-text">
+                        <p>The nights were heavy with tears of the past,<br>
+                        Was it the love we shared or the shadow that we cast?<br>
+                        I wasn't all right, and you weren't all wrong,<br>
+                        Perhaps we both fought battles unknown all along.</p>
+                    </div>
+                    <div class="poem-theme">
+                        <span class="theme-tag">Loss</span>
+                        <span class="theme-tag">Healing</span>
+                    </div>
+                </div>
+
+                <div class="poem-card">
+                    <div class="poem-header">
+                        <h3>Calling You</h3>
+                        <span class="poem-date">2024</span>
+                    </div>
+                    <div class="poem-text">
+                        <p>I'm calling you, but you're not there,<br>
+                        The phone rings empty in the air.<br>
+                        Maybe you're busy, maybe you're gone,<br>
+                        But I still hope you'll call back soon.</p>
+                    </div>
+                    <div class="poem-theme">
+                        <span class="theme-tag">Longing</span>
+                        <span class="theme-tag">Connection</span>
+                    </div>
+                </div>
+
+                <div class="poem-card">
+                    <div class="poem-header">
+                        <h3>Toxic</h3>
+                        <span class="poem-date">2024</span>
+                    </div>
+                    <div class="poem-text">
+                        <p>We label others with sharp disdain,<br>
+                        Blind to the shadows of our own pain.<br>
+                        The first true act of poison's trace<br>
+                        Is calling out another's face.<br>
+                        Each of us wears a fractured mask,</p>
+                    </div>
+                    <div class="poem-theme">
+                        <span class="theme-tag">Self-Reflection</span>
+                        <span class="theme-tag">Judgment</span>
+                    </div>
+                </div>
+
+              
+                </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- What I'm Reading Section -->
+    <section id="reading" class="reading">
+    <div class="container">
+            <h2 class="section-title">What I've read</h2>
+            <p class="section-subtitle">Books that inspire, challenge, and enrich my mind</p>
+            <div class="reading-content">
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="tempest.png" alt="The Tempest by William Shakespeare">
+                    </div>
+                    <div class="book-info">
+                        <h3>The Tempest</h3>
+                        <p class="book-author">William Shakespeare</p>
+                        <p class="book-quote">"What's past is prologue."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="merchantofvenice.png" alt="The Merchant of Venice by William Shakespeare">
+                    </div>
+                    <div class="book-info">
+                        <h3>The Merchant of Venice</h3>
+                        <p class="book-author">William Shakespeare</p>
+                        <p class="book-quote">"The quality of mercy is not strained."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="twistedlove.png" alt="Twisted Love by Ana Huang">
+                    </div>
+                    <div class="book-info">
+                        <h3>Twisted Love</h3>
+                        <p class="book-author">Ana Huang</p>
+                        <p class="book-quote">"Love isn't always pretty. Sometimes it's messy and complicated."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="twistedgames.png" alt="Twisted Games by Ana Huang">
+                    </div>
+                    <div class="book-info">
+                        <h3>Twisted Games</h3>
+                        <p class="book-author">Ana Huang</p>
+                        <p class="book-quote">"The best games are the ones you don't know you're playing."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="twistedhate.png" alt="Twisted Hate by Ana Huang">
+                    </div>
+                    <div class="book-info">
+                        <h3>Twisted Hate</h3>
+                        <p class="book-author">Ana Huang</p>
+                        <p class="book-quote">"Hate and love are two sides of the same coin."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="hatinggame.png" alt="The Hating Game by Sally Thorne">
+                    </div>
+                    <div class="book-info">
+                        <h3>The Hating Game</h3>
+                        <p class="book-author">Sally Thorne</p>
+                        <p class="book-quote">"I have a theory. Hating someone feels disturbingly similar to being in love with them."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="ikigai.png" alt="Ikigai by Hector Garcia">
+                    </div>
+                    <div class="book-info">
+                        <h3>Ikigai</h3>
+                        <p class="book-author">Hector Garcia</p>
+                        <p class="book-quote">"The purpose of life is to discover your gift. The work of life is to develop it."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="getepicshitdone.png" alt="Get Epic Shit by Ankur Warikoo">
+                    </div>
+                    <div class="book-info">
+                        <h3>Get Epic Shit</h3>
+                        <p class="book-author">Ankur Warikoo</p>
+                        <p class="book-quote">"Success is not about being the best, it's about being better than you were yesterday."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="emotinalintelligence .png" alt="Emotional Intelligence by Daniel Goleman">
+                    </div>
+                    <div class="book-info">
+                        <h3>Emotional Intelligence</h3>
+                        <p class="book-author">Daniel Goleman</p>
+                        <p class="book-quote">"Emotional intelligence is the ability to understand, use, and manage emotions."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="upgrade.png" alt="Upgrade by Thibaut">
+                    </div>
+                    <div class="book-info">
+                        <h3>Upgrade</h3>
+                        <p class="book-author">Thibaut</p>
+                        <p class="book-quote">"The future is not something we enter. The future is something we create."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="prideandprejudice.png" alt="Pride and Prejudice by Jane Austen">
+                    </div>
+                    <div class="book-info">
+                        <h3>Pride and Prejudice</h3>
+                        <p class="book-author">Jane Austen</p>
+                        <p class="book-quote">"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="itendswithus.png" alt="It Ends With Us by Colleen Hoover">
+                    </div>
+                    <div class="book-info">
+                        <h3>It Ends With Us</h3>
+                        <p class="book-author">Colleen Hoover</p>
+                        <p class="book-quote">"Just because someone hurts you doesn't mean you can simply stop loving them."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="itstartswithus.png" alt="It Starts With Us by Colleen Hoover">
+                    </div>
+                    <div class="book-info">
+                        <h3>It Starts With Us</h3>
+                        <p class="book-author">Colleen Hoover</p>
+                        <p class="book-quote">"Sometimes the one who loves you is the one who hurts you the most."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="fragmentsoflost.png" alt="Fragments of Lost by J. Lynn">
+                    </div>
+                    <div class="book-info">
+                        <h3>Fragments of Lost</h3>
+                        <p class="book-author">J. Lynn</p>
+                        <p class="book-quote">"Sometimes the hardest part isn't letting go but learning to start over."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="heasrtandbones.png" alt="Heart and Bones by Margaret Atwood">
+                    </div>
+                    <div class="book-info">
+                        <h3>Heart and Bones</h3>
+                        <p class="book-author">Margaret Atwood</p>
+                        <p class="book-quote">"In the end, we'll all become stories."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="senseandsensibilty.png" alt="Sense and Sensibility by Jane Austen">
+                    </div>
+                    <div class="book-info">
+                        <h3>Sense and Sensibility</h3>
+                        <p class="book-author">Jane Austen</p>
+                        <p class="book-quote">"The more I know of the world, the more I am convinced that I shall never see a man whom I can really love."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="wutheringheights.png" alt="Wuthering Heights by Emily Brontë">
+                    </div>
+                    <div class="book-info">
+                        <h3>Wuthering Heights</h3>
+                        <p class="book-author">Emily Brontë</p>
+                        <p class="book-quote">"Whatever our souls are made of, his and mine are the same."</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="janeeyre.png" alt="Jane Eyre by Charlotte Brontë">
+                    </div>
+                    <div class="book-info">
+                        <h3>Jane Eyre</h3>
+                        <p class="book-author">Charlotte Brontë</p>
+                        <p class="book-quote">"I am no bird; and no net ensnares me: I am a free human being with an independent will."</p>
+                    </div>
+                </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Contact Section -->
     <section id="contact" class="contact">
@@ -351,7 +801,41 @@
   <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Kavlin Kaur. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Creative developer and poet from Shimla, bridging technology and art through elegant digital experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <a href="mailto:kavlinkaur2907@gmail.com">kavlinkaur2907@example.com</a>
+                    <a href="tel:+919876543210">+91 8350921862</a>
+                    <p>Shimla, Himachal Pradesh</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <a href="https://github.com/kavlinkaur" target="_blank">GitHub</a>
+                    <a href="www.linkedin.com/in/kavlin-kaur" target="_blank">LinkedIn</a>
+                    <a href="https://twitter.com/kavlinkaur" target="_blank">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kavlin Kaur. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/kavlinkaur" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/kavlin-kaur" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/kavlinkaur" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="mailto:kavlin.kaur@example.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
     </div>
   </footer>
 
