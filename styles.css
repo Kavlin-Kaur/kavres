@@ -881,7 +881,7 @@ section {
 
 .preloader-message {
     font-size: 1.25rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.5px;
     animation: message-glow 2s ease-in-out infinite;
