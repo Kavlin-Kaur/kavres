@@ -821,7 +821,7 @@ section {
     border-radius: 50px;
     box-shadow: 0 8px 25px rgba(135,206,250,0.3);
     border: 2px solid rgba(135,206,250,0.2);
-    animation: cloud-float 3s ease-in-out infinite;
+    animation: cloud-float 2s ease-in-out infinite;
 }
 
 .welcome-cloud::before {
@@ -863,7 +863,7 @@ section {
   justify-content: center;
     background: #fff;
     margin: 0 auto;
-    animation: avatar-pulse 2s ease-in-out infinite;
+    animation: avatar-pulse 1.5s ease-in-out infinite;
 }
 
 .preloader-avatar img {
@@ -884,7 +884,7 @@ section {
     color: var(--primary-color);
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.5px;
-    animation: message-glow 2s ease-in-out infinite;
+    animation: message-glow 1.5s ease-in-out infinite;
 }
 
 @keyframes message-glow {

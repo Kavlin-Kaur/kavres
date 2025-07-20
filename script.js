@@ -222,16 +222,37 @@ window.addEventListener('load', () => {
     }, 100);
 }); 
 
-// Preloader fade out
+// Preloader fade out with optimized timing
 window.addEventListener('load', function() {
     const preloader = document.getElementById('preloader');
     if (preloader) {
-        // Give more time for preloader to show
+        // Check if page loaded quickly (less than 1 second)
+        const loadTime = performance.now();
+        const minDisplayTime = 1000; // Minimum 1 second display time
+        
+        const timeToWait = Math.max(1500 - loadTime, minDisplayTime);
+        
         setTimeout(() => {
             preloader.style.opacity = '0';
             setTimeout(() => {
                 preloader.style.display = 'none';
-            }, 800);
-        }, 3000); // Increased from immediate to 3 seconds
+            }, 500); // Reduced fade out time
+        }, timeToWait);
     }
-}); 
+});
+
+// Preload critical images for faster loading
+function preloadImages() {
+    const criticalImages = [
+        'Kavlin.jpg',
+        'bitmoji.png'
+    ];
+    
+    criticalImages.forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+}
+
+// Start preloading images as soon as possible
+document.addEventListener('DOMContentLoaded', preloadImages); 
