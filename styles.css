@@ -1130,6 +1130,69 @@ section {
     font-size: 0.8rem;
 }
 
+/* Badge images (external shields) */
+.badge-img {
+    max-width: 140px;
+    height: auto;
+    display: block;
+}
+
+/* Open Source section styling */
+.open-source {
+    /* Match Achievements section theme - warm beige background */
+    background: var(--bg-secondary);
+    padding: 5rem 0;
+}
+.oss-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+/* Centered boxed subtitle for Open Source */
+.open-source .section-subtitle {
+    display: block;
+    width: fit-content;
+    margin: 0.75rem auto 1.5rem;
+    padding: 0.6rem 1.1rem;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(1,21,62,0.06);
+    border: 1px solid var(--border-color);
+    font-weight: 500;
+}
+
+.open-source .section-title {
+    text-align: center;
+}
+.oss-card {
+    /* Cards should match Achievements cards: soft glass on beige */
+    background: var(--bg-primary);
+    padding: 1.25rem 1.5rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    width: 220px;
+    box-shadow: var(--shadow-md);
+    border: 1.2px solid var(--border-color);
+}
+.oss-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+.oss-caption {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin: 0;
+}
+
 /* READING SECTION */
 .reading {
     background: var(--bg-primary);

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kavlin Kaur — MCA student, creative developer and poet. Open-source contributor with Hacktoberfest & GSSoC recognitions.">
     <title>Portfolio</title>
       <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -46,6 +47,9 @@
                     <a href="#achievements" class="nav-link">Achievements</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#open-source" class="nav-link">Open Source</a>
+                </li>
+                <li class="nav-item">
                     <a href="#poetry" class="nav-link">Poetry</a>
                 </li>
                 <li class="nav-item">
@@ -70,6 +74,7 @@
         <div class="page-nav-dot" data-section="Skills" data-target="#skills"></div>
         <div class="page-nav-dot" data-section="Experience" data-target="#experience"></div>
         <div class="page-nav-dot" data-section="Achievements" data-target="#achievements"></div>
+    <div class="page-nav-dot" data-section="Open Source" data-target="#open-source"></div>
         <div class="page-nav-dot" data-section="Projects" data-target="#projects"></div>
         <div class="page-nav-dot" data-section="Poetry" data-target="#poetry"></div>
         <div class="page-nav-dot" data-section="Reading" data-target="#reading"></div>
@@ -100,6 +105,7 @@
       </div>
     </div>
   </section>
+    
 
   <!-- About Section -->
     <section id="about" class="about">
@@ -246,6 +252,7 @@
       <h2 class="section-title">Achievements & Certifications</h2>
       <p class="section-subtitle">Continuous learning and recognition of skills across various domains</p>
       <div class="achievements-grid">
+        <!-- (Open-source related badges moved to the dedicated "Open Source" section.) -->
         <div class="achievement-card">
           <div class="achievement-icon">
             <i class="fas fa-trophy"></i>
@@ -339,6 +346,35 @@
 
   <!-- Projects Section -->
     <!-- Projects Section -->
+    <!-- Open Source Section -->
+    <section id="open-source" class="open-source">
+        <div class="container">
+            <h2 class="section-title">Open Source</h2>
+            <p class="section-subtitle">A few recognitions and contribution highlights</p>
+            <div class="oss-grid">
+                <div class="oss-card">
+                    <div class="oss-logo">
+                        <img src="https://img.shields.io/badge/Hacktoberfest-Super%20Contributor-brightgreen?logo=github" alt="Hacktoberfest Super Contributor" class="badge-img">
+                    </div>
+                    <p class="oss-caption">Hacktoberfest — Super Contributor</p>
+                </div>
+
+                <div class="oss-card">
+                    <div class="oss-logo">
+                        <img src="https://img.shields.io/badge/GSSoC-Top%2010-orange?logo=google" alt="GSSoC Top 10" class="badge-img">
+                    </div>
+                    <p class="oss-caption">GSSoC — Top 10 contributor</p>
+                </div>
+
+                <div class="oss-card">
+                    <div class="oss-logo">
+                        <img src="https://ghchart.rshah.org/Kavlin-Kaur" alt="GitHub contributions graph" class="badge-img">
+                    </div>
+                    <p class="oss-caption">Open-source contributions (GitHub)</p>
+                </div>
+            </div>
+        </div>
+    </section>
 <section id="projects" class="projects">
     <div class="container">
         <h2 class="section-title">Featured Projects</h2>
@@ -506,36 +542,7 @@
                         <h3>Grief</h3>
                         <span class="poem-date">2024</span>
                     </div>
-                    <div class="poem-text">
-                        <p>The nights were heavy with tears of the past,<br>
-                        Was it the love we shared or the shadow that we cast?<br>
-                        I wasn't all right, and you weren't all wrong,<br>
-                        Perhaps we both fought battles unknown all along.</p>
-                    </div>
-                    <div class="poem-theme">
-                        <span class="theme-tag">Loss</span>
-                        <span class="theme-tag">Healing</span>
-                    </div>
-                </div>
 
-                <div class="poem-card">
-                    <div class="poem-header">
-                        <h3>Calling You</h3>
-                        <span class="poem-date">2024</span>
-                    </div>
-                    <div class="poem-text">
-                        <p>I'm calling you, but you're not there,<br>
-                        The phone rings empty in the air.<br>
-                        Maybe you're busy, maybe you're gone,<br>
-                        But I still hope you'll call back soon.</p>
-                    </div>
-                    <div class="poem-theme">
-                        <span class="theme-tag">Longing</span>
-                        <span class="theme-tag">Connection</span>
-                    </div>
-                </div>
-
-                <div class="poem-card">
                     <div class="poem-header">
                         <h3>Toxic</h3>
                         <span class="poem-date">2024</span>
@@ -759,7 +766,7 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h3>Email</h3>
-                            <p>kavlinkaur2907.com</p>
+                                <p><a href="mailto:kavlinkaur2907@gmail.com">kavlinkaur2907@gmail.com</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -773,14 +780,14 @@
                         <i class="fab fa-github"></i>
                         <div>
                             <h3>GitHub</h3>
-                            <p>https://github.com/Kavlin-Kaur</p>
+                                <p><a href="https://github.com/Kavlin-Kaur" target="_blank" rel="noopener">https://github.com/Kavlin-Kaur</a></p>
           </div>
           </div>
                     <div class="contact-item">
                         <i class="fab fa-linkedin"></i>
                         <div>
                             <h3>LinkedIn</h3>
-                            <p>linkedin.com/in/kavlin-kaur</p>
+                                <p><a href="https://www.linkedin.com/in/kavlin-kaur" target="_blank" rel="noopener">linkedin.com/in/kavlin-kaur</a></p>
           </div>
           </div>
         </div>
@@ -802,6 +809,7 @@
       </div>
     </div>
   </section>
+    
 
   <!-- Footer -->
     <footer class="footer">
@@ -813,24 +821,24 @@
                 </div>
                 <div class="footer-section">
                     <h3>Contact</h3>
-                    <a href="mailto:kavlinkaur2907@gmail.com">kavlinkaur2907@example.com</a>
+                    <a href="mailto:kavlinkaur2907@gmail.com">kavlinkaur2907@gmail.com</a>
                     <a href="tel:+919876543210">+91 8350921862</a>
                     <p>Shimla, Himachal Pradesh</p>
                 </div>
                 <div class="footer-section">
                     <h3>Connect</h3>
-                    <a href="https://github.com/Kavlin-Kaur" target="_blank">GitHub</a>
-                    <a href="www.linkedin.com/in/kavlin-kaur" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Kavlin-Kaur" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/kavlin-kaur" target="_blank" rel="noopener">LinkedIn</a>
              
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Kavlin Kaur. All rights reserved.</p>
+                <p>&copy; 2025 Kavlin Kaur. All rights reserved.</p>
                 <div class="footer-social">
                     <a href="https://github.com/Kavlin-Kaur" target="_blank" aria-label="GitHub">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="www.linkedin.com/in/kavlin-kaur" target="_blank" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/kavlin-kaur" target="_blank" rel="noopener" aria-label="LinkedIn">
                         <i class="fab fa-linkedin"></i>
                     </a>
                     <a href="mailto:kavlinkaur2907@gmail.com" aria-label="Email">
